@@ -15,3 +15,6 @@ class DemoQA(BasePage):
 
         self.icon = WebElement(driver, '#app > header > a')
         self.btn_elements = WebElement(driver, '#app > div > div > div.home-body > div > div:nth-child(1)')
+        self.text_check_footer = WebElement(driver, '#app > footer > span')
+        self.icon_elem = WebElement(driver,'div.home-body svg > path')
+        self.text_check_main = WebElement(driver, '#app > div > div > div > div.col-12.mt-4.col-md-6')
