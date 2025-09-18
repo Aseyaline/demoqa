@@ -1,6 +1,6 @@
 # 1. создайте тестовый файл test_page_dialogs.py реализуйте тест кейс test_modal_elements()
 # a. перейти на страницу https://demoqa.com/modal-dialogs
-# i. в каталоге pages создайте класс страницы modal_dialogs.py
+# i. в каталоге pages создайте класс страницы modal_dialogs_page.py
 # ii. в тестовом файле создайте объект новой страницы
 # iii. от объекта вызовите метод входа на страницу
 # b. проверить, что кнопок подменю, на странице - 5 шт
@@ -22,7 +22,7 @@
 # i. вернуть размеры экрана по умолчанию 1000x1000
 
 
-from pages.modal_dialogs import Modal_dialogs
+from pages.modal_dialogs_page import Modal_dialogs
 import time
 
 
