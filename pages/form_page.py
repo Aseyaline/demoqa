@@ -26,8 +26,3 @@ class FormPage(BasePage):
         self.checkbox_music = WebElement(driver, '#hobbies-checkbox-3')
 
         self.current_address = WebElement(driver, '#currentAddress')
-
-    # state_and_city
-        self.state_and_city = WebElement(driver, '#state > div')  #state > div > div.css-1hwfws3 > div.css-1wa3eu0-placeholder
-        # state > div > div.css-1hwfws3 > div.css-1uccc91-singleValue
-        # state > div > div.css-1hwfws3 > div.css-1g6gooi
