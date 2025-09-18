@@ -14,9 +14,11 @@ class FormPage(BasePage):
         self.user_email = WebElement(driver, '#userEmail')
         self.gender_radio_1 = WebElement(driver, '#gender-radio-1')
         self.user_number = WebElement(driver, '#userNumber')
+
         self.btn_submit = WebElement(driver, '#submit')
         self.modal_dialog = WebElement(driver, 'body > div.fade.modal.show > div')
         self.btn_close_modal = WebElement(driver, '#closeLargeModal')
+        self.user_form = WebElement(driver, '#userForm')
 
     # hobbies
         self.checkbox_sports = WebElement(driver, '#hobbies-checkbox-1')
@@ -24,3 +26,8 @@ class FormPage(BasePage):
         self.checkbox_music = WebElement(driver, '#hobbies-checkbox-3')
 
         self.current_address = WebElement(driver, '#currentAddress')
+
+    # state_and_city
+        self.state_and_city = WebElement(driver, '#state > div')  #state > div > div.css-1hwfws3 > div.css-1wa3eu0-placeholder
+        # state > div > div.css-1hwfws3 > div.css-1uccc91-singleValue
+        # state > div > div.css-1hwfws3 > div.css-1g6gooi
