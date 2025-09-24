@@ -81,3 +81,7 @@ class WebElement:
         else:
             print("Locator type " + self.locator_type + " not correct")
         return False
+
+    # Проверка CSS-стилей. Находит элемент, получает имя стиля и сравнивает его значение.
+    def check_css(self, style, value=''):
+        return self.find_element().value_of_css_property(style) == value
